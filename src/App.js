@@ -19,7 +19,7 @@ import './app.scss'
   };
 
     return(
-      <div>
+      <div className="app">
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
